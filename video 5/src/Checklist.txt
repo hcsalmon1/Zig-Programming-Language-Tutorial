@@ -1,0 +1,64 @@
+
+✅
+❌
+
+Compiler features
+
+    Parser ✅
+    Asts   ✅
+
+    __Checking__
+        Finding global variables        ✅
+        Finding function declarations   ✅
+        Finding local variables         ❌
+        Track var data, type, const     ❌
+        Finding function redefinitions  ❌
+        Finding var redefinitions       ❌
+        Track scope                     ❌
+        Compatible values               ❌
+        Const correctness               ❌
+
+    Code conversion ✅
+
+
+
+Go implementation
+
+    __Variables__
+    __basic var types__
+        int     ✅
+        string  ✅
+        bool    ✅
+        char    ❌
+        float   ❌    
+
+    __complex types__
+        arrays  ✅
+        lists   ❌
+        enums   ❌
+        structs ❌
+
+    globals     ❌  
+    casting     ❌
+
+
+    __printing__    ✅
+
+    __Control flow__
+        if      ✅
+        for     ✅
+        else    ❌
+        while   ✅
+        switch  ❌
+        continue❌
+        break   ❌
+        return  ✅
+
+    __Functions__
+    function calls  ✅
+    parameters  ✅
+
+LLVM implementation
+
+    __Control flow__
+        return i32 ✅
