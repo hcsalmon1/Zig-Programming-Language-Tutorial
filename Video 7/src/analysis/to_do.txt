@@ -1,0 +1,11 @@
+
+✅ ❌
+
+Phase 1:
+1. Get enums and struct definitions ✅
+2. Resolve struct members ✅
+3. Get function names, return types and parameters ✅
+4. Get global vars ✅
+5. Add function names and global names to symbol table ✅
+
+Phase 2:
